@@ -6,7 +6,10 @@ class App extends Component {
   }
   render () {
     return (
-      <h1>IdeaBox</h1>
+      <main classname="App">
+        <h1>IdeaBox</h1>
+        <p>Hi!</p>
+      </main>
     )
   }
 }
