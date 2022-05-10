@@ -1,8 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-
+class App extends Component {
+  constructor () {
+    super();
+  }
+  render () {
+    return (
+      <h1>IdeaBox</h1>
+    )
+  }
 }
 
 export default App;
