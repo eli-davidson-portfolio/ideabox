@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Ideas = () => {
+const Ideas = (props) => {
     return (
-        <h2>Ideas go here!</h2>
+        <h2>Hello, {props.name}!</h2>
     )
 }
 
