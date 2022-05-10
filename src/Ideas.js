@@ -1,8 +1,9 @@
 import React from 'react';
 
 const Ideas = (props) => {
+    const { name } = props;
     return (
-        <h2>Hello, {props.name}!</h2>
+        <h2>Hello, {name}!</h2>
     )
 }
 
